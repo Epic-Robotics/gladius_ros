@@ -25,8 +25,8 @@ float right_wheel;
 IPAddress server(192, 168, 203, 83);
 uint16_t serverPort = 11411;
 
-const char* ssid = "RedGio";
-const char* password = "satu2701082";
+const char* ssid = "++++++";
+const char* password = "++++++";
 
 void cmdVel_to_pwm_cb(const geometry_msgs::Twist& velocity_msg);
 ros::NodeHandle nh;

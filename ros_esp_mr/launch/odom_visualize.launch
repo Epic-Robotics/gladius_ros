@@ -1,7 +1,8 @@
 <launch>
 
     <node pkg="ros_esp_mr" name="gladius_odom_publisher" type="diff_tf_odom.py" />
-    <node pkg="rviz" name="rviz" type="rviz" />
     <node pkg="rosserial_python" name="wifi_communication_node" type="serial_node.py" args="tcp" output="screen"/>
+    <node pkg="teleop_twist_keyboard_" name="teleop_twist_keyboard" type="teleop_twist_keyboard.py.py" />
+    <node pkg="rviz" name="rviz" type="rviz" />
 
 </launch>
